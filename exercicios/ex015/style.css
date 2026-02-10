@@ -1,0 +1,14 @@
+h1{
+  color: rgb(255, 4, 4); 
+}
+body{
+    background-color: rgb(10, 191, 4);
+}
+h2{
+    color: darkred;
+}
+p{
+  text-decoration: dotted;
+  color: aliceblue; 
+  
+}
