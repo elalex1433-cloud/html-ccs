@@ -8,19 +8,31 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     table{
+       
         width: 500px;
          border-collapse: collapse;
+         position: relative;
+    }
+    thead > tr >th{
+        position: sticky;
+        top: -1px;
+        background-color: black;
     }
     caption{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;
-        font-weight: bolder;
         padding: 7px;
         background-color: rgba(119, 136, 153, 0.777);
+    }
+    tbody > tr:nth-child(even) {
+        background-color: lightgray;
     }
     th, td{
         border: 1px solid black;
         padding: 10px;
+    }
+    td{
+        font-weight: bolder;
     }
     thead, tfoot{
         background-color: black;
@@ -107,7 +119,7 @@
     <td class="num">3. 893 659</td>
 </tr>
 <tr>
-    <td>Rio Grande DO Norte</td>
+    <td>Rio Grande Do Norte</td>
     <td class="num">3. 455 236</td>
 </tr>
 <tr>
@@ -140,20 +152,20 @@
 </tr>
 <tr>
     <td>Acre</td>
-    <td class="num">884 372</td>
+    <td class="num">884. 372</td>
 </tr>
 <tr>
     <td>Amapá</td>
-    <td class="num">806 517</td>
+    <td class="num">806. 517</td>
 </tr>
 <tr>
     <td>Roraima</td>
-    <td class="num">738 772</td>
+    <td class="num">738. 772</td>
 </tr>
    </tbody>
    <tfoot>
   <th scope="row">Total De Habitantes</th>
-  <td class="num"><strong>213. 421 037</strong></td>
+  <td class="num"><strong>213.421037</strong></td>
    </tfoot>
    </table>
 </body>
