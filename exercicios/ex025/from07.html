@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <h1>Exemplo de Fromúlario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+      <p>
+      <label for="iest">Estado</label>
+      <select name="estado" id="iest">
+
+        <optgroup label="Nordeste">
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+            <option value="CE">Céara</option>
+            <option value="PI">Piauí</option>
+            <option value="PB">Paraíba</option>
+            <option value="RN">Rio Grande Do Norte</option>
+            <option value="BA">Bahia</option>
+            <option value="SE">Sergipe</option>
+            <option value="AL">Alagoas</option>
+        </optgroup>
+      </select>
+      </p>
+
+
+      <p><label for="imsg">Mensagem</label> <br>
+    <textarea name="msg" id="imsg" rows="10"></textarea>
+    
+    </p>
+       
+      <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

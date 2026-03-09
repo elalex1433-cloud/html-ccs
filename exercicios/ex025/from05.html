@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exeplo de Fromúlario</title>
+    <style>
+        fieldset{
+            background-color: rgba(0, 0, 139, 0.407);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exemplo De Fromúlario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+  <fieldset>
+    <legend>Sexo</legend>
+    <input type="radio" name="sexo" id="isxmas" value="M" checked>
+    <label for="isxmas"> Masculino</label> <br>
+    <input type="radio" name="sexo" id="isxfem" value="F">
+    <label for="isxfem">feminino</label>
+  </fieldset>
+        <fieldset>
+     <legend>Esporte favoritos</legend>
+     <p><label for="ifut"><input type="checkbox" name="fut" id="ifut"> Futebol</label></p>
+     <p><label for="ibas"> <input type="checkbox" name="bas" id="ibas"> Basquete</label></p>
+     <p><label for="inat"> <input type="checkbox" name="nat" id="inat">Natação</label></p>
+     <p><label for="iten"> <input type="checkbox" name="ten" id="iten"> Tênis</label></p>
+
+
+   </fieldset>
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
