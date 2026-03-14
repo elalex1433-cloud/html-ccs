@@ -2,5 +2,6 @@
 /* tela em pe */
 
 body{
- background-color: brown;
+background-image: url(../imagem/cev-portrait.jpg);
+background-position: center bottom;
 }
