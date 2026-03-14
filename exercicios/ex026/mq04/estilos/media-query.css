@@ -1,7 +1,49 @@
 @charset "UTF-8";
 
-/* TD AS MOBILE FIRST*/
+/* todas as demais media */
 
-@media print{
-    
+@media print {
+
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    body{
+        background-image: url(../imagem/back-tablet.jpg);
+    }
+    img#cll{display: none;
+}
+img#tab{display: block;
+}
+img#iprime{
+display: none;
+}
+img#pc{display: none;}
+img#tv{display: none;}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagem/back-pc.jpg);
+    }
+img#cll{display: none;
+}
+img#tab{display: none;
+}
+img#iprime{
+display: none;
+}
+img#pc{display: block;}
+img#tv{display: none;}
+}
+@media screen and(min-width: 1200px){
+   body{
+    background-image: url(../imagem/back-tv.jpg);
+   }
+   img#cll{display: none;
+}
+img#tab{display: none;
+}
+img#iprime{
+display: none;
+}
+img#pc{display: none;}
+img#tv{display: block;}
 }
