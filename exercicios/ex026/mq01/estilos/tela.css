@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* ESTILOS PARA TELA  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+header{
+background-color: rgba(47, 79, 79, 0.584);
+
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+menu > ul{
+    list-style-type: none;
+    background-color: darkgrey;
+}
+menu  li{
+    background-color: dimgray;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
