@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* versão mobile first */
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    width: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+body{
+  background-color: black;
+}
